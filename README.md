@@ -81,10 +81,11 @@ If you do not have a `platforms` section in your Homebridge config you will need
 
 TODO
 
-### Devices tested with the plugin
+### Devices tested with this plugin
 
 - [Aeotec Z-Stick Gen5](https://aeotec.com/z-wave-usb-stick)
 - [Aeotec Smart Switch 6](https://aeotec.com/z-wave-plug-in-switch) (UK version)
+- [Aeotec MultiSensor 6](https://aeotec.com/z-wave-sensor)
 
 ## FAQ's
 
