@@ -37,13 +37,19 @@ Register the plugin with Homebridge by adding a new entry to the `platforms` sec
     {
       "zwaveNodeId": 2,
       "displayName": "Desk Power Socket",
-      "homekitAccessoryType": "outlet"
+      "homekitCategory": "Outlet",
+      "homekitServices": [
+        "Outlet"
+      ]
     },
     {
       "zwaveNodeId": 6,
       "displayName": "Office Multisensor",
-      "homekitAccessoryType": "sensor",
-      "sensorType": ["temperature"]
+      "homekitCategory": "Sensor",
+      "homekitServices": [
+        "HumiditySensor",
+        "TemperatureSensor"
+      ]
     }
   ],
   "noCache": false
@@ -58,9 +64,16 @@ If you do not have a `platforms` section in your Homebridge config you will need
 
 - `zwaveNodeId` - the ID of the node in the ZWave network that this accessory is for
 - `displayName` - the name that will be used for this accessory
-- `homekitAccessoryType` - the type of accessory HomeKit will see this accessory as. Supported HomeKit accessory types are:
-  - `outlet` - A power outlet
-  - `sensor` - A sensor
+- `homekitCategory` - the type of accessory HomeKit will see this accessory as. Supported categories are:
+  - `Outlet`
+  - `Sensor`
+- `homekitServices` - the HomeKit services provided by this accessory. Supported services are:
+  - If `homekitCategory` is `Outlet`:
+    - `Outlet`
+  - If `homekitCategory` is `Sensor`:
+    - `HumiditySensor`
+    - `LightSensor`
+    - `TemperatureSensor`
 
 `noCache` sets whether accessories registered by this plugin should be cached or not. By default this value is `false`. Set to `true` to disable the cache.
 
