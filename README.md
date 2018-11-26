@@ -73,6 +73,7 @@ If you do not have a `platforms` section in your Homebridge config you will need
   - If `homekitCategory` is `Sensor`:
     - `HumiditySensor`
     - `LightSensor`
+    - `MotionSensor`
     - `TemperatureSensor`
 
 `noCache` sets whether accessories registered by this plugin should be cached or not. By default this value is `false`. Set to `true` to disable the cache.
