@@ -1,6 +1,6 @@
 # homebridge-zwave
 
-A [ZWave](https://www.z-wave.com/) plugin for [Homebridge](https://github.com/nfarina/homebridge).
+A [Homebridge](https://github.com/nfarina/homebridge) plugin for [ZWave](https://www.z-wave.com/) devices.
 
 ## Index
 
