@@ -4,22 +4,26 @@ A [Homebridge](https://github.com/nfarina/homebridge) plugin for [ZWave](https:/
 
 ## Index
 
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Notes](#notes)
-- [FAQ's](#faqs)
+- [homebridge-zwave](#homebridge-zwave)
+  - [Index](#index)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Notes](#notes)
+    - [Devices tested with this plugin](#devices-tested-with-this-plugin)
+  - [FAQ's](#faqs)
+    - [How do I install OpenZWave on macOS](#how-do-i-install-openzwave-on-macos)
 
 ## Prerequisites
 
-1. Node.JS >= 10
-2. Homebridge >= 0.4.45
-3. [OpenZWave](http://www.openzwave.com/)
+1. Node.js >= 11
+2. [OpenZWave](http://www.openzwave.com/) 1.4
+3. Homebridge >= 0.4.49
 
 ## Installation
 
-```
-npm i -g <TODO>
+```sh
+npm i -g homebridge-zwave
 ```
 
 ## Usage
@@ -80,8 +84,6 @@ If you do not have a `platforms` section in your Homebridge config you will need
 
 ## Notes
 
-TODO
-
 ### Devices tested with this plugin
 
 - [Aeotec Z-Stick Gen5](https://aeotec.com/z-wave-usb-stick)
@@ -90,4 +92,20 @@ TODO
 
 ## FAQ's
 
-TODO
+### How do I install OpenZWave on macOS
+
+You can install `v1.4` of `OpenZWave` using [Homebrew](https://brew.sh/):
+
+```sh
+brew tap mike182uk/tap
+
+brew install mike182uk/tap/open-zwave
+```
+
+If you run:
+
+```sh
+brew install open-zwave
+```
+
+This will install an older version of `OpenZWave` that **will not work** with this plugin.
