@@ -1,5 +1,10 @@
 # homebridge-zwave
 
+[![Version](https://img.shields.io/npm/v/homebridge-zwave.svg?style=flat-square)](https://www.npmjs.com/package/homebridge-zwave)
+[![Build Status](https://img.shields.io/travis/mike182uk/homebridge-zwave.svg?style=flat-square)](http://travis-ci.org/mike182uk/homebridge-zwave)
+[![npm](https://img.shields.io/npm/dm/homebridge-zwave.svg?style=flat-square)](https://www.npmjs.com/package/homebridge-zwave)
+[![License](https://img.shields.io/github/license/mike182uk/homebridge-zwave.svg?style=flat-square)](https://www.npmjs.com/package/homebridge-zwave)
+
 A [Homebridge](https://github.com/nfarina/homebridge) plugin for [ZWave](https://www.z-wave.com/) devices.
 
 ## Index
@@ -19,6 +24,7 @@ A [Homebridge](https://github.com/nfarina/homebridge) plugin for [ZWave](https:/
 1. Node.js >= 11
 2. [OpenZWave](http://www.openzwave.com/) 1.4
 3. Homebridge >= 0.4.49
+4. A good understanding of how Homebridge and HomeKit works
 
 ## Installation
 
@@ -102,7 +108,7 @@ brew tap mike182uk/tap
 brew install mike182uk/tap/open-zwave
 ```
 
-If you run:
+⚠️ If you run:
 
 ```sh
 brew install open-zwave
