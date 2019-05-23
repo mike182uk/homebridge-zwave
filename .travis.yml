@@ -7,5 +7,17 @@ sudo: false
 
 cache: npm
 
+addons:
+    apt:
+      packages:
+          - libudev-dev
+
+before_install:
+  - curl -sL https://github.com/OpenZWave/open-zwave/archive/v1.4.tar.gz | tar xz
+  - cd open-zwave-1.4
+  - make
+  - sudo make install
+  - npm ci
+
 script:
   - npm run lint
