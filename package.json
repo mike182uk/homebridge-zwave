@@ -1,0 +1,35 @@
+{
+  "name": "homebridge-zwave",
+  "version": "1.0.0",
+  "description": "A Homebridge plugin for ZWave devices",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/homebridge -D -U ./.dev -P ./",
+    "lint": "standard"
+  },
+  "author": "Michael David Barrett <mike182uk@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mike182uk/homebridge-zwave.git"
+  },
+  "homepage": "https://github.com/mike182uk/homebridge-zwave",
+  "bugs": {
+    "url": "https://github.com/mike182uk/homebridge-zwave/issues"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "zwave"
+  ],
+  "engines": {
+    "homebridge": ">=0.4.49"
+  },
+  "devDependencies": {
+    "homebridge": "^0.4.49",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "@hapi/joi": "^15.0.2",
+    "openzwave-shared": "^1.4.8"
+  }
+}
