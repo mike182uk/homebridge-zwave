@@ -108,7 +108,9 @@ brew tap mike182uk/tap
 brew install mike182uk/tap/open-zwave
 ```
 
-⚠️ If you run:
+⚠️ **WARNING**
+
+If you run:
 
 ```sh
 brew install open-zwave
