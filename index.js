@@ -1,4 +1,4 @@
-module.exports = (homebridge) => {
+module.exports = homebridge => {
   const PLUGIN_NAME = 'homebridge-zwave'
   const PLATFORM_NAME = 'ZWavePlatform'
 
