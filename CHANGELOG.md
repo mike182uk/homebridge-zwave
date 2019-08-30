@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.0
+
+- Upgrade `OpenZWave` to `1.6`
+
 ## 1.0.1
 
 - Update `lodash` to resolve [potential security vulnerability](https://github.com/lodash/lodash/pull/4336)

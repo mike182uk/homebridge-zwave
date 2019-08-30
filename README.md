@@ -22,7 +22,7 @@ A [Homebridge](https://github.com/nfarina/homebridge) plugin for [ZWave](https:/
 ## Prerequisites
 
 1. Node.js >= 11
-2. [OpenZWave](http://www.openzwave.com/) 1.4
+2. [OpenZWave](http://www.openzwave.com/) 1.6
 3. Homebridge >= 0.4.49
 4. A good understanding of how Homebridge and HomeKit works
 
@@ -100,7 +100,7 @@ If you do not have a `platforms` section in your Homebridge config you will need
 
 ### How do I install OpenZWave on macOS
 
-You can install `v1.4` of `OpenZWave` using [Homebrew](https://brew.sh/):
+You can install `v1.6` of `OpenZWave` using [Homebrew](https://brew.sh/):
 
 ```sh
 brew tap mike182uk/tap
