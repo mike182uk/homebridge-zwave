@@ -81,6 +81,7 @@ If you do not have a `platforms` section in your Homebridge config you will need
   - If `homekitCategory` is `Outlet`:
     - `Outlet`
   - If `homekitCategory` is `Sensor`:
+    - `Battery` 
     - `HumiditySensor`
     - `LightSensor`
     - `MotionSensor`

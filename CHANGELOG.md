@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.0
+
+- Report accessory battery status
+
 ## 2.0.0
 
 - Upgrade `OpenZWave` to `1.6`

@@ -1,6 +1,6 @@
 {
   "name": "homebridge-zwave",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A Homebridge plugin for ZWave devices",
   "main": "index.js",
   "scripts": {
