@@ -3,6 +3,7 @@
 ## 2.0.0
 
 - Upgrade `OpenZWave` to `1.6`
+- Serial number for accessory is now provided
 
 ## 1.0.1
 
