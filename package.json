@@ -19,7 +19,8 @@
   },
   "keywords": [
     "homebridge-plugin",
-    "zwave"
+    "zwave",
+    "z-wave"
   ],
   "engines": {
     "homebridge": ">=0.4.49"
