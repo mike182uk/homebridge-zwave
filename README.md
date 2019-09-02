@@ -98,7 +98,7 @@ If you do not have a `platforms` section in your Homebridge config you will need
 - [Aeotec Z-Stick Gen5](https://aeotec.com/z-wave-usb-stick)
 - [Aeotec Smart Switch 6](https://aeotec.com/z-wave-plug-in-switch) (UK version)
 - [Aeotec MultiSensor 6](https://aeotec.com/z-wave-sensor)
-- [Fibaro RGBW441]
+- [Fibaro RGBW441] (https://manuals.fibaro.com/rgbw/)
 - [Fibaro FGD211 Universal Dimmer (Version FGD212 is not OpenZWave 1.6 compatible at this point)
 
 ## FAQ's
