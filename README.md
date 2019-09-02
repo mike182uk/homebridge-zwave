@@ -22,7 +22,7 @@ A [Homebridge](https://github.com/nfarina/homebridge) plugin for [ZWave](https:/
 ## Prerequisites
 
 1. Node.js >= 11
-2. [OpenZWave](http://www.openzwave.com/) 1.4
+2. [OpenZWave](http://www.openzwave.com/) 1.6
 3. Homebridge >= 0.4.49
 4. A good understanding of how Homebridge and HomeKit works
 
@@ -75,9 +75,12 @@ If you do not have a `platforms` section in your Homebridge config you will need
 - `zwaveNodeId` - the ID of the node in the ZWave network that this accessory is for
 - `displayName` - the name that will be used for this accessory
 - `homekitCategory` - the type of accessory HomeKit will see this accessory as. Supported categories are:
+  - `Lightbulb`
   - `Outlet`
   - `Sensor`
 - `homekitServices` - the HomeKit services provided by this accessory. Supported services are:
+  - If `homekitCategory` is `Lightbulb`:
+    - `Dimmable` or `Color` (Set only one)
   - If `homekitCategory` is `Outlet`:
     - `Outlet`
   - If `homekitCategory` is `Sensor`:
@@ -95,12 +98,14 @@ If you do not have a `platforms` section in your Homebridge config you will need
 - [Aeotec Z-Stick Gen5](https://aeotec.com/z-wave-usb-stick)
 - [Aeotec Smart Switch 6](https://aeotec.com/z-wave-plug-in-switch) (UK version)
 - [Aeotec MultiSensor 6](https://aeotec.com/z-wave-sensor)
+- [Fibaro RGBW441]
+- [Fibaro FGD211 Universal Dimmer (Version FGD212 is not OpenZWave 1.6 compatible at this point)
 
 ## FAQ's
 
 ### How do I install OpenZWave on macOS
 
-You can install `v1.4` of `OpenZWave` using [Homebrew](https://brew.sh/):
+You can install `v1.6` of `OpenZWave` using [Homebrew](https://brew.sh/):
 
 ```sh
 brew tap mike182uk/tap
