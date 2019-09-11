@@ -3,6 +3,7 @@
 ## 2.1.0
 
 - Report accessory battery status
+- `accessories` property in config can be empty
 
 ## 2.0.0
 
