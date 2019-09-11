@@ -29,7 +29,11 @@ A [Homebridge](https://github.com/nfarina/homebridge) plugin for [ZWave](https:/
 ## Installation
 
 ```sh
-npm i -g homebridge-zwave
+npm install -g homebridge-zwave
+```
+If you get errors, please try:
+```sh
+sudo npm install -g --unsafe-perm homebridge-zwave
 ```
 
 ## Usage
