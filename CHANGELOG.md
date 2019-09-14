@@ -4,6 +4,7 @@
 
 - Report accessory battery status
 - `accessories` property in config can be empty
+- Report if a Motion Sensor is tampered
 
 ## 2.0.0
 
