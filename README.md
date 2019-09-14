@@ -53,10 +53,20 @@ Register the plugin with Homebridge by adding a new entry to the `platforms` sec
       ]
     },
     {
-      "zwaveNodeId": 6,
+      "zwaveNodeId": 3,
+      "displayName": "Light Switch",
+      "homekitCategory": "Switch",
+      "homekitServices": [
+        "Switch"
+      ]
+    },
+    {
+      "zwaveNodeId": 4,
       "displayName": "Office Multisensor",
       "homekitCategory": "Sensor",
       "homekitServices": [
+        "Battery",
+        "MotionSensor",
         "HumiditySensor",
         "TemperatureSensor"
       ]
@@ -77,6 +87,7 @@ If you do not have a `platforms` section in your Homebridge config you will need
 - `homekitCategory` - the type of accessory HomeKit will see this accessory as. Supported categories are:
   - `Outlet`
   - `Sensor`
+  - `Switch`
 - `homekitServices` - the HomeKit services provided by this accessory. Supported services are:
   - If `homekitCategory` is `Outlet`:
     - `Outlet`
@@ -86,6 +97,8 @@ If you do not have a `platforms` section in your Homebridge config you will need
     - `LightSensor`
     - `MotionSensor`
     - `TemperatureSensor`
+  - if `homekitCategory` is `Switch`
+    - `Switch`
 
 `noCache` sets whether accessories registered by this plugin should be cached or not. By default this value is `false`. Set to `true` to disable the cache.
 
