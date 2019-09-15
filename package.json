@@ -28,10 +28,10 @@
   "devDependencies": {
     "homebridge": "^0.4.50",
     "ozw-cli": "^0.2.2",
-    "standard": "^12.0.1"
+    "standard": "^14.2.0"
   },
   "dependencies": {
-    "@hapi/joi": "^15.1.1",
+    "@hapi/joi": "^16.0.1",
     "openzwave-shared": "^1.5.6"
   }
 }

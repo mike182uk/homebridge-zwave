@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/npm/v/homebridge-zwave.svg?style=flat-square)](https://www.npmjs.com/package/homebridge-zwave)
 [![Build Status](https://img.shields.io/travis/mike182uk/homebridge-zwave.svg?style=flat-square)](http://travis-ci.org/mike182uk/homebridge-zwave)
 [![npm](https://img.shields.io/npm/dm/homebridge-zwave.svg?style=flat-square)](https://www.npmjs.com/package/homebridge-zwave)
-[![License](https://img.shields.io/github/license/mike182uk/homebridge-zwave.svg?style=flat-square)](https://www.npmjs.com/package/homebridge-zwave)
+[![License](https://img.shields.io/github/license/mike182uk/homebridge-zwave.svg?style=flat-square)](https://www.npmjs.com/package/homebridge-zwave) [![Greenkeeper badge](https://badges.greenkeeper.io/mike182uk/homebridge-zwave.svg)](https://greenkeeper.io/)
 
 A [Homebridge](https://github.com/nfarina/homebridge) plugin for [ZWave](https://www.z-wave.com/) devices.
 
