@@ -26,7 +26,7 @@
     "homebridge": ">=0.4.49"
   },
   "devDependencies": {
-    "homebridge": "^0.4.50",
+    "homebridge": "^1.1.1",
     "ozw-cli": "^0.2.2",
     "standard": "^14.2.0"
   },
