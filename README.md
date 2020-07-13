@@ -88,6 +88,7 @@ If you do not have a `platforms` section in your Homebridge config you will need
   - `Outlet`
   - `Sensor`
   - `Switch`
+  - `Lightbulb`  
 - `homekitServices` - the HomeKit services provided by this accessory. Supported services are:
   - If `homekitCategory` is `Outlet`:
     - `Outlet`
@@ -99,6 +100,8 @@ If you do not have a `platforms` section in your Homebridge config you will need
     - `TemperatureSensor`
   - if `homekitCategory` is `Switch`
     - `Switch`
+  - if `homekitCategory` is `Lightbulb`
+      - `Color` OR `Dimmable`
 
 `noCache` sets whether accessories registered by this plugin should be cached or not. By default this value is `false`. Set to `true` to disable the cache.
 
@@ -109,6 +112,8 @@ If you do not have a `platforms` section in your Homebridge config you will need
 - [Aeotec Z-Stick Gen5](https://aeotec.com/z-wave-usb-stick)
 - [Aeotec Smart Switch 6](https://aeotec.com/z-wave-plug-in-switch) (UK version)
 - [Aeotec MultiSensor 6](https://aeotec.com/z-wave-sensor)
+- Fibaro Dimmer 1 and Dimmer 2
+- Fibaro RGBW
 
 ## FAQ's
 
