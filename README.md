@@ -83,6 +83,7 @@ If you do not have a `platforms` section in your Homebridge config you will need
 `accessories` is where you will map a ZWave node to a HomeKit accessory. To define an accessory the information needed is:
 
 - `zwaveNodeId` - the ID of the node in the ZWave network that this accessory is for
+- `zwaveNodeInstance` - the instance on the node (for a node with multiple instances)
 - `displayName` - the name that will be used for this accessory
 - `homekitCategory` - the type of accessory HomeKit will see this accessory as. Supported categories are:
   - `Outlet`
