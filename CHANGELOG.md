@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Add support for setting a network key
+
 ## 2.1.0
 
 - Report accessory battery status

@@ -41,7 +41,8 @@ Register the plugin with Homebridge by adding a new entry to the `platforms` sec
   "platform": "ZWavePlatform",
   "name": "ZWavePlatform",
   "zwave": {
-    "devicePath": "/dev/cu.usbmodem14201"
+    "devicePath": "/dev/cu.usbmodem14201",
+    "networkKey": "0xE0, 0x40, 0x58, 0x10, 0x79, 0x32, 0x9B, 0x52, 0x96, 0x4B, 0x8F, 0xC5, 0x62, 0x4F, 0x79, 0x3B"
   },
   "accessories": [
     {
@@ -79,6 +80,8 @@ Register the plugin with Homebridge by adding a new entry to the `platforms` sec
 If you do not have a `platforms` section in your Homebridge config you will need to define one.
 
 `zwave.devicePath` is the path to your ZWave controller. This can vary based on the controller manufacturer and the operating system you are using.
+
+`zwave.networkKey` is the network key to use for encrypting secure messages over the network. This property can be omitted if you do not require this functionality.
 
 `accessories` is where you will map a ZWave node to a HomeKit accessory. To define an accessory the information needed is:
 
