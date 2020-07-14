@@ -21,10 +21,10 @@ A [Homebridge](https://github.com/nfarina/homebridge) plugin for [ZWave](https:/
 
 ## Prerequisites
 
-1. Node.js >= 11
+1. Node.js >= 12.13.0
 2. [OpenZWave](http://www.openzwave.com/) 1.6
-3. Homebridge >= 0.4.49
-4. A good understanding of how Homebridge and HomeKit works
+3. Homebridge >= 1.0.0
+4. A good understanding of how Homebridge, HomeKit and ZWave works
 
 ## Installation
 
@@ -86,7 +86,7 @@ If you do not have a `platforms` section in your Homebridge config you will need
 `accessories` is where you will map a ZWave node to a HomeKit accessory. To define an accessory the information needed is:
 
 - `zwaveNodeId` - the ID of the node in the ZWave network that this accessory is for
-- `displayName` - the name that will be used for this accessory
+- `displayName` - the name that will be used for this accessory in HomeKit
 - `homekitCategory` - the type of accessory HomeKit will see this accessory as. Supported categories are:
   - `Outlet`
   - `Sensor`
@@ -102,6 +102,8 @@ If you do not have a `platforms` section in your Homebridge config you will need
     - `TemperatureSensor`
   - if `homekitCategory` is `Switch`
     - `Switch`
+
+_You do not have to specify the service for an accessory if the accessory does not support it (i.e a multisensor that only measures temperature and humidity only needs the `HumiditySensor` and `TemperatureSensor` services)._
 
 `noCache` sets whether accessories registered by this plugin should be cached or not. By default this value is `false`. Set to `true` to disable the cache.
 

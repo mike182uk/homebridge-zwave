@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Drop support for homebridge < `1.0.0`
 - Add support for setting a network key
 
 ## 2.1.0

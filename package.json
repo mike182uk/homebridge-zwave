@@ -23,15 +23,15 @@
     "z-wave"
   ],
   "engines": {
-    "homebridge": ">=0.4.49"
+    "homebridge": ">=1.0.0"
   },
   "devDependencies": {
-    "homebridge": "^0.4.50",
+    "homebridge": "^1.1.1",
     "ozw-cli": "^0.2.2",
-    "standard": "^14.2.0"
+    "standard": "^14.3.4"
   },
   "dependencies": {
     "@hapi/joi": "^17.0.2",
-    "openzwave-shared": "^1.5.6"
+    "openzwave-shared": "^1.7.1"
   }
 }
