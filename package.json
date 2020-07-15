@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "./node_modules/.bin/homebridge -D -U ./.dev -P ./",
+    "test": "jest",
     "lint": "standard"
   },
   "author": "Michael David Barrett <mike182uk@gmail.com>",
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "homebridge": "^1.1.1",
+    "jest": "^26.1.0",
     "ozw-cli": "^0.2.2",
     "standard": "^14.3.4"
   },
