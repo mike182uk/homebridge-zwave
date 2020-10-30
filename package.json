@@ -28,7 +28,7 @@
   "devDependencies": {
     "homebridge": "^1.1.1",
     "ozw-cli": "^0.2.2",
-    "standard": "^15.0.0"
+    "standard": "^16.0.0"
   },
   "dependencies": {
     "@hapi/joi": "^17.0.2",
