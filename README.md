@@ -1,3 +1,5 @@
+#### ⚠️ This project is no longer maintained
+
 # homebridge-zwave
 
 [![Version](https://img.shields.io/npm/v/homebridge-zwave.svg?style=flat-square)](https://www.npmjs.com/package/homebridge-zwave)
